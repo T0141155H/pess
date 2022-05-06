@@ -8,7 +8,7 @@
 <link href="header_style.css" rel="stylesheet" type= "text/css">
 <link href="content_style.css" rel="stylesheet" type= "text/css">
 </head>
-<! -- Part 1 -->
+<!-- Part 1 -->
 <?php require_once 'nav.php'; ?>
 <br><br>
 <?php
@@ -74,7 +74,7 @@ else
 <br>
 <br>
 <br>
-<! -- Part 2 - display a form for operator to update status of patrol car -->
+<!-- Part 2 - display a form for operator to update status of patrol car -->
 <form name = "form2" method = "post"
 action = "<?php echo htmlentities($_SERVER['PHP_SELF']); ?> ">
 <table class = "ContentStyle">
@@ -104,7 +104,7 @@ action = "<?php echo htmlentities($_SERVER['PHP_SELF']); ?> ">
 </tr>
 </table>
 </form>
-<! -- Part 3 -->
+<!-- Part 3 -->
 <?php
 }
 /* if postback via clicking Update button */
