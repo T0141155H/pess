@@ -14,7 +14,7 @@
 <?php
 if (!isset($_POST["btnSearch"])){
 ?>
-<! -- create a form to search for patrol car based on id -->
+<!-- create a form to search for patrol car based on id -->
 <form name = "form1" method = "post"
 action = "<?php echo htmlentities($_SERVER['PHP_SELF']); ?> ">
 <table class = "ContentStyle">
