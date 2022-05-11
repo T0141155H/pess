@@ -10,7 +10,6 @@
 </head>
 <!-- Part 1 -->
 <?php require_once 'nav.php'; ?>
-<br><br>
 <?php
 if (!isset($_POST["btnSearch"])){
 ?>
