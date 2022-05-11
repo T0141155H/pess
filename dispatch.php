@@ -82,9 +82,7 @@ for($i = 0;	$i <$numOfPatrolcarDispatched; $i++)
 $conn->close();
 ?>
 <!-- After dispatching, redirect to logcall.php -->
-<!--
-<script type = "text/javascript">window.location="./logcall.php";</script>
--->
+<script type = "text/javascript">window.location = "./logcall.php";</script>
 <?php 
 }
 
